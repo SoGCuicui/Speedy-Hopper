@@ -1,0 +1,6 @@
+{
+  "parent": "block/hopper",
+  "textures": {
+    "inside": "speedyhopper:block/slow_hopper_inside"
+  }
+}

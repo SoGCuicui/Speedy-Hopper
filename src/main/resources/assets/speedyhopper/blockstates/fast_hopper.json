@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "speedyhopper:block/fast_hopper"
+    },
+    "facing=north": {
+      "model": "speedyhopper:block/fast_hopper_side"
+    },
+    "facing=east": {
+      "model": "speedyhopper:block/fast_hopper_side",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "speedyhopper:block/fast_hopper_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "speedyhopper:block/fast_hopper_side",
+      "y": 270
+    }
+  }
+}

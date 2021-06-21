@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "speedyhopper",
+  "version": "${version}",
+
+  "name": "Speedy Hopper",
+  "description": "Mod allowing hoppers to be faster... or slower!",
+  "authors": [
+    "Cuicui"
+  ],
+  "contact": {
+    "homepage": "https://dev.cuicui.ovh/minecraft",
+    "sources": "https://dev.cuicui.ovh/minecraft/speedy-hopper"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/speedyhopper/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ovh.cuicui.speedyhopper.Main"
+    ]
+  },
+  "mixins": [
+    "speedyhopper.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
