@@ -10,8 +10,6 @@
 - **Fast Hopper**: 4 game ticks per transfer (twice as fast as a normal hopper),
 - **Slow Hopper**: 16 game ticks per transfer (twice as slow as a normal hopper).
 
-(A normal Hopper transfer 1 item every 8 game ticks.)
-
 Note that this mod is deliberately designed so that Fast Hoppers are not overkill, and pretty expensive (especially in terms of time) to craft.  
 This is to encourage the use of normal Hoppers, in order to keep the world close to vanilla.
 
