@@ -1,13 +1,15 @@
 package ovh.cuicui.speedyhopper;
 
+import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.HopperBlockEntity;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
+import net.minecraft.util.math.BlockPos;
 
 public class SlowHopperBlockEntity extends HopperBlockEntity {
-    public SlowHopperBlockEntity() {
-        super();
+    public SlowHopperBlockEntity(BlockPos pos, BlockState state) {
+        super(pos, state);
     }
 
     @Override

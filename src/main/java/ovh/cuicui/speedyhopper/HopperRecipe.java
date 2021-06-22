@@ -49,7 +49,4 @@ public class HopperRecipe extends SpecialCraftingRecipe {
     public RecipeSerializer<?> getSerializer() {
         return Main.HOPPER_RECIPE_SERIALIZER;
     }
-
-    //@Override
-    //public boolean isIgnoredInRecipeBook() { return false; }
 }
