@@ -45,7 +45,8 @@ This mod is translated in English and French.
 You are free to use this mod in any modpacks you'd make.  
 This mod works without conflict with my other mod "[Sticky Hopper](https://www.curseforge.com/minecraft/mc-mods/sticky-hopper)", but of course you won't be able to craft a "Fast Sticky Hopper", so you'll have to make choices and design your contraptions accordingly!
 
-I don't plan to adapt it for another modloader than Fabric.
+I don't plan to adapt it for another modloader than Fabric.  
+Please take a look at the current [issues board](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/boards), and also at [the interesting ideas and suggestions](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/wikis/Ideas) I've received, to see what is likely to happen sooner or later!
 
 *Hope you'll find this mod usefull!* ♥
 
