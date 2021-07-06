@@ -49,7 +49,7 @@ This mod works without conflict with my other mod "[Sticky Hopper](https://www.c
 I don't plan to adapt it for another modloader than Fabric.  
 Please take a look at the current [issues board](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/boards), and also at [the interesting ideas and suggestions](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/wikis/Ideas) I've received, to see what is likely to happen sooner or later!
 
-*Hope you'll find this mod usefull!* ♥
+*Hope you'll find this mod usefull! ♥ Also, feel free to take a look at [my other mods](https://www.curseforge.com/members/cuicui_off/projects)!*
 
 
 ### Versions
