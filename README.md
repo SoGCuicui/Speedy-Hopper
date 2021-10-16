@@ -49,10 +49,22 @@ This mod works without conflict with my other mod "[Sticky Hopper](https://www.c
 I don't plan to adapt it for another modloader than Fabric.  
 Please take a look at the current [issues board](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/boards), and also at [the interesting ideas and suggestions](https://dev.cuicui.ovh/minecraft/speedy-hopper/-/wikis/Ideas) I've received, to see what is likely to happen sooner or later!
 
-*Hope you'll find this mod usefull!* ♥
+*Hope you'll find this mod usefull! ♥ Also, feel free to take a look at [my other mods](https://www.curseforge.com/members/cuicui_off/projects)!*
 
 
 ### Versions
 
 1.1 - (1.17) Bugfix: Pickaxe tag added, so it's possible to mine Speedy Hoppers  
 1.0 Initial project with operational faster or slower Hoppers
+
+
+### Known Incompatibilities
+
+- _Vanilla Tweaks - Resource Packs_:
+  I've found two [Vanilla Tweaks resource packs](https://vanillatweaks.net/picker/resource-packs/) that have small compatibility issues, due to the change in texture of the Speedy Hoppers.  
+  => _Directional Hoppers_ normally displays an arrow inside the hopper if it is not pointing down. It does not appear in Speedy Hoppers because of the texture of the potions.  
+  => _3D Items_, more annoying, changes the model used for items (in the hotbar, in the hand, and also for items dropped on the ground), and unfortunately the potions texture does not appear at all.   
+  Here are screenshots to illustrate those issues (without resource packs, with _Directional Hoppers_, and with _3D Items_):  
+  ![](https://media.forgecdn.net/attachments/401/581/resource_pack_no.png)
+  ![](https://media.forgecdn.net/attachments/401/582/resource_pack_directional_hoppers.png)
+  ![](https://media.forgecdn.net/attachments/401/583/resource_pack_3d_items.png)
