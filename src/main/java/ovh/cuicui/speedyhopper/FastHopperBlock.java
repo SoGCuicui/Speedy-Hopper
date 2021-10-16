@@ -19,6 +19,6 @@ public class FastHopperBlock extends HopperBlock implements BlockEntityProvider 
 
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return world.isClient ? null : checkType(type, Main.FAST_HOPPER_BLOCK_ENTITY, HopperBlockEntity::serverTick);
+        return world.isClient ? null : checkType(type, Main.FAST_HOPPER_BLOCK_ENTITY, FastHopperBlockEntity::serverTick);
     }
 }

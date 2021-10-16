@@ -21,7 +21,7 @@ public class HopperRecipe extends SpecialCraftingRecipe {
         for (int i = 0; i < inv.size(); ++i) {
             ItemStack stack = inv.getStack(i);
             Item item = stack.getItem();
-            if (item.equals(Items.LINGERING_POTION) && stack.getTag().getString("Potion").equals("minecraft:thick") && hopperExpectedPos == 0) {
+            if (item.equals(Items.LINGERING_POTION) && stack.getNbt().getString("Potion").equals("minecraft:thick") && hopperExpectedPos == 0) {
                 hopperExpectedPos = i + inv.getWidth();
                 continue;
             }
