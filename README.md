@@ -21,7 +21,7 @@ This is to encourage the use of normal Hoppers, in order to keep the world close
 - **Slow Hopper**: a **Lingering Potion of Slowness IV** on top of a normal Hopper,  
   ![](https://media.forgecdn.net/attachments/373/572/slow_hopper_craft.png)
 - Going back to a normal **Hopper**: a **Thick Lingering Potion** on top of a Speedy Hopper.  
-![](https://media.forgecdn.net/attachments/373/573/hopper_craft_from_fast.png) ![](https://media.forgecdn.net/attachments/373/574/hopper_craft_from_slow.png)
+  ![](https://media.forgecdn.net/attachments/373/573/hopper_craft_from_fast.png) ![](https://media.forgecdn.net/attachments/373/574/hopper_craft_from_slow.png)
 
 Note that the bottle is consumed in all these crafts, as when making Tipped Arrows!
 
@@ -54,7 +54,7 @@ Please take a look at the current [issues board](https://dev.cuicui.ovh/minecraf
 
 ### Versions
 
-1.1 - (1.17) Bugfix: Pickaxe tag added, so it's possible to mine Speedy Hoppers  
+1.1 - (≥ 1.17) Bugfix: Pickaxe tag added, so it's possible to mine Speedy Hoppers  
 1.0 Initial project with operational faster or slower Hoppers
 
 
@@ -63,7 +63,7 @@ Please take a look at the current [issues board](https://dev.cuicui.ovh/minecraf
 - _Vanilla Tweaks - Resource Packs_:
   I've found two [Vanilla Tweaks resource packs](https://vanillatweaks.net/picker/resource-packs/) that have small compatibility issues, due to the change in texture of the Speedy Hoppers.  
   => _Directional Hoppers_ normally displays an arrow inside the hopper if it is not pointing down. It does not appear in Speedy Hoppers because of the texture of the potions.  
-  => _3D Items_, more annoying, changes the model used for items (in the hotbar, in the hand, and also for items dropped on the ground), and unfortunately the potions texture does not appear at all.   
+  => _3D Items_, more annoying, changes the model used for items (in the hotbar, in the hand, and also for items dropped on the ground), and unfortunately the potions texture does not appear at all.  
   Here are screenshots to illustrate those issues (without resource packs, with _Directional Hoppers_, and with _3D Items_):  
   ![](https://media.forgecdn.net/attachments/401/581/resource_pack_no.png)
   ![](https://media.forgecdn.net/attachments/401/582/resource_pack_directional_hoppers.png)
