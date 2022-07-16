@@ -51,7 +51,4 @@ public class SlowHopperRecipe extends SpecialCraftingRecipe {
     public RecipeSerializer<?> getSerializer() {
         return Main.SLOW_HOPPER_RECIPE_SERIALIZER;
     }
-
-    //@Override
-    //public boolean isIgnoredInRecipeBook() { return false; }
 }

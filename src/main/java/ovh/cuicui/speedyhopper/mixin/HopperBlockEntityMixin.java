@@ -20,7 +20,7 @@ public abstract class HopperBlockEntityMixin extends LootableContainerBlockEntit
     private int transferCooldown;
 
     // Change the cooldown of Speedy Hoppers
-    @Inject(method = "setCooldown", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "setTransferCooldown", at = @At("HEAD"), cancellable = true)
     private void sh_setCooldown_head(int cooldown, CallbackInfo info) {
         if (cooldown > 0) {
             if (this.getType() == Main.FAST_HOPPER_BLOCK_ENTITY) {

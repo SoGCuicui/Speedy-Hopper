@@ -4,7 +4,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.HopperBlockEntity;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.math.BlockPos;
 
 public class SlowHopperBlockEntity extends HopperBlockEntity {
@@ -14,7 +13,7 @@ public class SlowHopperBlockEntity extends HopperBlockEntity {
 
     @Override
     protected Text getContainerName() {
-        return new TranslatableText(Main.SLOW_HOPPER_CONTAINER_ID);
+        return Text.translatable(Main.SLOW_HOPPER_CONTAINER_ID);
     }
 
     @Override
